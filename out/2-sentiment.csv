@@ -1,4 +1,4 @@
-BookName,ChapterName,CharacterName,Percentile,Sentiment,Sentiment Score
+BookName,ChapterName,CharacterName,Percentile,Sentiment
 "Immortals of Meluha","CHAPTER 1: He has come","bhadra",0.025157232704402517,Negative
 "Immortals of Meluha","CHAPTER 1: He has come","bhadra",0.02830188679245283,Neutral
 "Immortals of Meluha","CHAPTER 1: He has come","bhadra",0.09748427672955975,Negative
