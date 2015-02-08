@@ -59,6 +59,7 @@ public class MainDriverStanford {
 		for(String kindleFilePath : kindleBookSources){
 			try(BookReader bookReader = new KindleBookReader(kindleFilePath)){
 				String bookTitleName = bookReader.getBookTitle();
+				
 				System.out.println("Book Name: "+bookTitleName);
 				System.out.println("Author Name: "+bookReader.getAuthor());
 
