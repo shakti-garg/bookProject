@@ -64,6 +64,7 @@ public class MainDriverStanford {
 
 				for(Chapter chapter : bookReader.getChapters()){
 					System.out.println(chapter.getIndex()+" : "+chapter.getTitle());
+					
 					Annotation annotatedChapter = nlpParser.parseText(chapter.getText());
 					
 					List<CoreMap> sentences = annotatedChapter.get(SentencesAnnotation.class);
